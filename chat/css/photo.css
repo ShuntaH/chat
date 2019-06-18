@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html,
+body {
+  height: 100%;
+  width: 100%; }
+
+html,
+body,
+p,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+main,
+header,
+footer {
+  margin: 0;
+  padding: 0; }
+
+main {
+  display: block; }
+
+.header {
+  text-align: center; }
+  .header h1 {
+    padding-top: 20px; }
+  .header h2 {
+    padding-top: 20px;
+    padding-bottom: 20px; }
+  .header a {
+    padding: 10px;
+    text-decoration: none; }
+
+.img {
+  text-align: center; }
+
+img {
+  width: 60%;
+  height: 60%; }

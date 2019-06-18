@@ -1,0 +1,35 @@
+@import "reset/reset.scss";
+@import "base";
+
+@mixin msg{
+    text-align: left;
+    ul{
+        padding-left: 0;
+        li{
+            list-style: none;
+            label{
+                margin-right: 10px;
+            }
+        }
+
+    }
+
+}
+
+.main{
+    width:100%;
+}
+
+.form{
+    @include msg;
+    padding: 30px 310px ;
+    textarea{
+        width: 300px;
+        height: 140px;
+    }
+}
+
+.comments{
+    @include msg;
+    padding: 10px 310px;
+}

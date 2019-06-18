@@ -1,0 +1,66 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html,
+body {
+  height: 100%;
+  width: 100%; }
+
+html,
+body,
+p,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+main,
+header,
+footer {
+  margin: 0;
+  padding: 0; }
+
+main {
+  display: block; }
+
+.header {
+  text-align: center; }
+  .header h1 {
+    padding-top: 20px; }
+  .header h2 {
+    padding-top: 20px;
+    padding-bottom: 20px; }
+  .header a {
+    padding: 10px;
+    text-decoration: none; }
+
+.main {
+  width: 100%; }
+
+.form {
+  text-align: left;
+  padding: 30px 310px; }
+  .form ul {
+    padding-left: 0; }
+    .form ul li {
+      list-style: none; }
+      .form ul li label {
+        margin-right: 10px; }
+  .form textarea {
+    width: 300px;
+    height: 140px; }
+
+.comments {
+  text-align: left;
+  padding: 10px 310px; }
+  .comments ul {
+    padding-left: 0; }
+    .comments ul li {
+      list-style: none; }
+      .comments ul li label {
+        margin-right: 10px; }
